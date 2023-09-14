@@ -35,7 +35,6 @@ Explanation: The factorial of 10 is 10 x 9 x 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1 = 362
 - Do not use recursion.
 - Do not use any loops.
 
-
 ## Testing
 
 NOTE: Make sure you're in the `005py-calculate-the-factorial` directory (containing the `test.py` file) when executing the command above.
