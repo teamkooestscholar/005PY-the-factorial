@@ -1,4 +1,4 @@
-# Factorial Calculator
+# Calculate the Factorial
 
 A Python function that calculates the factorial of a non-negative integer.
 
