@@ -1,65 +1,29 @@
-# EASY: 005 Python - Calculate the Factorial of a Number
+# Factorial Calculator
 
-## Description
+A Python function that calculates the factorial of a non-negative integer.
 
-Write a function that calculates and returns the factorial of a non-negative integer.
+## Function: `calculate_factorial(n)`
 
-## Sample Solution
+This function calculates the factorial of a non-negative integer using a recursive approach.
+
+### Parameters
+
+- `n` (int): The non-negative integer for which to calculate the factorial.
+
+### Returns
+
+- int: The factorial of the input integer `n`.
+
+### Example
 
 ```python
-def calculate_factorial(n):
-    return n * calculate_factorial(n - 1)
+result = calculate_factorial(5)
+print(result)  # Output: 120
 ```
 
-## Examples
+### Constraints
 
-### Example 1
-
-```markdown
-Input: `calculate_factorial(5)`
-Output: `120`
-Explanation: The factorial of 5 is 5 x 4 x 3 x 2 x 1 = 120.
-```
-
-### Example 2
-
-```markdown
-Input: `calculate_factorial(10)`
-Output: `3628800`
-Explanation: The factorial of 10 is 10 x 9 x 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1 = 3628800.
-```
-
-## Constraints
-
+- The function does not use loops.
+- The function does not use recursion.
+- The input `n` must be a non-negative integer.
 - Do not use the built-in `math.factorial()` function.
-- Do not use recursion.
-- Do not use any loops.
-
-## Testing
-
-NOTE: Make sure you're in the `005py-calculate-the-factorial` directory (containing the `test.py` file) when executing the command above.
-
-- To navigate to the directory containing the test file from the current terminal, run the following command:
-
-```bash
-cd scr/
-```
-
-- Then run the following command in a terminal to test your code:
-
-```bash
-python -m unittest -v test
-```
-
-- And make sure you get the following output:
-
-```bash
-test_factorial_of_large_number (test.TestCalculateFactorial.test_factorial_of_large_number) ... ok
-test_factorial_of_positive_number (test.TestCalculateFactorial.test_factorial_of_positive_number) ... ok
-test_factorial_of_zero (test.TestCalculateFactorial.test_factorial_of_zero) ... ok
-
-----------------------------------------------------------------------
-Ran 3 tests in 0.001s
-
-OK
-```
