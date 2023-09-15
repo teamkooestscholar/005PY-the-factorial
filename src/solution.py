@@ -1,2 +1,4 @@
 def calculate_factorial(n):
-    pass # Remove the function "pass" and write your code here
+    # Remove the function "pass" and write your code here
+    
+    return n * calculate_factorial(n - 1)
