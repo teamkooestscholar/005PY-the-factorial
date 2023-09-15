@@ -1,20 +1,17 @@
 def calculate_factorial(n):
-    def factorial(acc,k):
-        if k == 0:
-            return acc
-        else:
-            return factorial(acc*k, k-1)
-        
     if n < 0:
         raise ValueError("Negative numbers are undefined for factorials.")
+    elif n == 0:
+        return 1
     else:
-        return factorial(1,n)
-    
-    #testing
+        result = 1
+        for i in range(1, n + 1):
+            result *= i
+        return result
+
 try:
-    n = int(input("Enter an Integer that is not negative."))
+    n = int(input("Enter a non-negative integer: "))
     result = calculate_factorial(n)
     print(f"The factorial of {n} is {result}")
 except ValueError as e:
     print(e)
-    
