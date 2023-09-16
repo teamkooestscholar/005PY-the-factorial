@@ -1,2 +1,8 @@
 def calculate_factorial(n):
-    pass # Remove the function "pass" and write your code here
+    if n == 0:
+        return 1
+    result = 1
+    while n > 0:
+        result *= n
+        n -= 1
+    return result
