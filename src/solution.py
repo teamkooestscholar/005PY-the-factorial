@@ -1,5 +1,3 @@
-def calculate_factorial(n):
-    pass # Remove the function "pass" and write your code here
 from functools import reduce
 
 def calculate_factorial(n):
