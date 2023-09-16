@@ -10,3 +10,4 @@ n_input = int(n_input)
 
 answer = calculate_factorial(n_input)
 print("The factorial of ", n_input,  "is: ", answer)
+
