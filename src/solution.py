@@ -8,3 +8,6 @@ def calculate_factorial(n):
         n -= 1
 
     return result
+
+print(calculate_factorial(5))  # Output: 120
+print(calculate_factorial(10))  # Output: 3628800
