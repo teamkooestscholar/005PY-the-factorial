@@ -1,3 +1,4 @@
+
 import unittest
 from solution import calculate_factorial
 
@@ -16,3 +17,4 @@ class TestCalculateFactorial(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
