@@ -24,4 +24,4 @@ while True:
         result = calculate_factorial(n)
         print(result)
     except ValueError:
-        print("Invalid input. Please enter a non-negative integer or 'q' to quit.")
+        print("Invalid input! Please enter a non-negative integer or 'q' to quit.")
