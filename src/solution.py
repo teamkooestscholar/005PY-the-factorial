@@ -1,2 +1,8 @@
-def calculate_factorial(n):
-    pass # Remove the function "pass" and write your code here
+def f(n):
+    if n == 0:
+        return 1
+    else:
+        return n * f(n - 1)
+        
+total = f(3)
+print(total)
